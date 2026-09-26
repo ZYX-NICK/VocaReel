@@ -390,3 +390,4 @@ def lookup_word(word: str, *, timeout: float = 5.0,
                 rendered = True
     source = entry.source + (" · MyMemory（中文参考）" if summary or rendered else "")
     return replace(entry, meanings=tuple(updated), source=source)
+dd

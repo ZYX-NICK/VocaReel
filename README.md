@@ -20,7 +20,7 @@
 
 - 点击「选词窗口」打开独立窗口，点击其中的英文字幕单词查词。原文区只占两行，可以滚动；下方释义区可滚动，调整窗口大小时中文速览和其余释义仍可查看。可拖动窗口边框或用标题旁的「－」「＋」按钮改变大小，窗口尺寸会记住。
 - [Free Dictionary API](https://dictionaryapi.dev/) 提供按词性排列的多条英文释义、音标和可用例句。未导入本地词库时，[MyMemory](https://mymemory.translated.net/doc/spec.php) 提供中文速览和前几条英文释义的机器翻译参考。联网查询在后台进行，仅发送所选单词及至多六条英文释义，不发送整段字幕。免费匿名接口有[每日额度](https://mymemory.translated.net/doc/usagelimits.php)，不足时仍可查看英文释义或使用词典链接。
-- 如果希望获得更多中文词义，在「设置」中选择「导入 ECDICT CSV…」，导入从 [ECDICT 项目](https://github.com/skywind3000/ECDICT)下载的 `ecdict.csv`。首次导入会在后台建立索引；完成后重新点词。本地中文词义按词性展开，已收录的单词断网也可即时查询；词库未收录时自动使用在线词典。词库保存在用户目录的 `.series_english/ecdict.sqlite3`，程序不会再依赖原 CSV 路径。ECDICT 使用 [MIT 许可证](https://github.com/skywind3000/ECDICT/blob/master/LICENSE)。
+- 如果希望获得更多中文词义，在「设置」中选择「导入 ECDICT CSV…」，导入从项目文件中的 `ecdict.csv`。首次导入会在后台建立索引；完成后重新点词。本地中文词义按词性展开，已收录的单词断网也可即时查询；词库未收录时自动使用在线词典。词库保存在用户目录的 `.series_english/ecdict.sqlite3`，程序不会再依赖原 CSV 路径。ECDICT 使用 [MIT 许可证](https://github.com/skywind3000/ECDICT/blob/master/LICENSE)。
 - 选中单词后可用窗口下方的「有道词典」或「剑桥词典」链接在浏览器查看更完整、专业的释义。词义不保证适合当前剧情语境，请结合句子判断。
 - 词典临时不可用时仍可以点开这些链接。查询成功的词条会在本次运行期间缓存。
 

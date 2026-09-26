@@ -1,3 +1,8 @@
+# 简介
+**中文｜**追剧学英语是一款配合 mpv 使用的字幕学习工具。它支持内嵌字幕和外挂 ASS 等字幕，一键切换纯英文与中英双语。你还可以在独立选词窗口查看单词的多种释义和例句，跳转有道、剑桥词典，并自定义快捷键和窗口置顶设置。
+
+**English｜**Learn English with your favorite shows. Switch between English-only and bilingual subtitles in one click, using embedded or external subtitles. Look up words in a separate window for multiple meanings and examples, open trusted dictionaries, and customize your shortcuts.
+
 # 追剧学英语
 
 使用 mpv 播放本地视频，用独立控制面板切换纯英文和中英双语字幕，并在可调整大小的选词窗口查词。界面使用 Python 标准库 Tkinter，不需要安装 Python 第三方包。Windows 为主要使用平台；macOS 和 Linux 也实现了 mpv 连接。

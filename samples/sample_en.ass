@@ -1,0 +1,16 @@
+[Script Info]
+Title: Series English - English
+ScriptType: v4.00+
+PlayResX: 640
+PlayResY: 360
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,30,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,2,0,2,20,20,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.80,0:00:04.00,Default,,0,0,0,,Hello, my friend. Let's practice English today.
+Dialogue: 0,0:00:04.40,0:00:07.80,Default,,0,0,0,,Listen to the sentence, then try it again.
+Dialogue: 0,0:00:08.20,0:00:12.50,Default,,0,0,0,,Learning a little every day is a great idea.
